@@ -1,0 +1,124 @@
+.navbar-bg {
+  background-color: #222;
+}
+
+.navbar-brand {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.form-search {
+  width: 70%;
+  height: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  outline: none;
+  background-color: #3d3d3d;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-x: 90%;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.6s ease;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form-search:focus {
+  width: 100%;
+  background-image: url("../images/search-icon.png");
+}
+
+.form-search::placeholder {
+  content: "";
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  opacity: 0.5;
+}
+
+.btn-login,
+.btn-register,
+.btn-logout {
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 0 1rem;
+}
+
+.btn-login,
+.btn-logout {
+  background-color: #2488ff;
+}
+
+.btn-login,
+.btn-register,
+.btn-logout {
+  padding: 1rem 2.4rem;
+  color: #fff;
+}
+
+.btn-login:hover,
+.btn-register:hover,
+.btn-logout:hover {
+  color: #fff;
+}
+
+.btn-logout {
+  padding: 1rem 3rem;
+}
+
+.item-container {
+  width: 100%;
+}
+
+.profile-picture {
+  display: block;
+  padding-left: 1rem;
+}
+
+.profile-picture > img {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-brand {
+    font-size: 1.8rem;
+    line-height: 2.2;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .title-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form-search {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .form-search:focus {
+    background-image: none;
+  }
+
+  .button-container {
+    display: inline-grid;
+    width: 100%;
+  }
+
+  .profile-picture > img {
+    display: none;
+  }
+}

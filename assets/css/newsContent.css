@@ -1,0 +1,240 @@
+.content-title {
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.content-image {
+  width: 100%;
+  height: 45rem;
+}
+
+.recommendations {
+  display: block;
+}
+
+.recommendation-header {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.comment-header {
+  font-size: 2rem;
+}
+
+.recommendation-header,
+.comment-header {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.recommendation-header::after {
+  content: "";
+  margin: 0 auto;
+  width: 30%;
+}
+
+.comment-header::after {
+  content: "";
+  width: 10%;
+}
+
+.recommendation-header::after,
+.comment-header::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #2448ee;
+  transition: all 0.3s ease;
+}
+
+.recommendation-header:hover::after {
+  content: "";
+  width: 50%;
+}
+
+.comment-header:hover::after {
+  content: "";
+  width: 15%;
+}
+
+.recommendation-item {
+  position: relative;
+}
+
+.recommendation-title {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.recommendation-header,
+.news-content,
+.recommendations:not(:first-of-type) {
+  margin-top: 3rem;
+}
+
+.recommendation-image {
+  width: 100%;
+  height: 25rem;
+}
+
+.breadcrumb-item,
+.breadcrumb-item > a {
+  font-size: 1.4rem;
+}
+
+.breadcrumb {
+  margin-top: 2rem;
+}
+
+.news-content {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.divider-wrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.divider {
+  height: 100%;
+  width: 1%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+
+.comment-wrapper {
+  background-color: #f5fcff;
+  display: block;
+  position: relative;
+  padding: 2rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.button-submit-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-submit {
+  width: 15%;
+}
+
+.btn-action {
+  width: 35% !important;
+}
+
+.btn-action:not(:first-of-type) {
+  margin-left: 3rem;
+}
+
+.input-comment {
+  height: auto;
+  border-radius: 6px;
+}
+
+.hr-divider {
+  display: block;
+  width: 100%;
+  height: 0.8px;
+  margin: 3rem auto;
+  background-color: #ccc;
+}
+
+.user-image {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+}
+
+.commenter-name {
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.comment-date {
+  margin-left: 1rem;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.comment-date,
+.comment-content {
+  font-size: 1.4rem;
+}
+
+.ld-button {
+  display: inline-block;
+  background-color: transparent;
+  padding: 1rem 1.6rem;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.ld-button:hover {
+  background-color: #ddd;
+}
+
+.ld-button:not(:first-of-type) {
+  margin-left: 2rem;
+}
+
+.ld-button > img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+@media screen and (max-width: 998px) {
+  .recommendations {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .recommendation-image {
+    height: 30rem;
+  }
+
+  .divider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .recommendation-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .user-image {
+    height: 3.4rem;
+    width: 3.4rem;
+  }
+
+  .commenter-name {
+    font-size: 1.4rem;
+  }
+
+  .comment-date,
+  .comment-content {
+    font-size: 1.2rem;
+  }
+
+  .btn-submit {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .content-title {
+    font-size: 2.6rem;
+  }
+}

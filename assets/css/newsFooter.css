@@ -1,0 +1,104 @@
+.footer-container {
+  margin-top: 10rem;
+  background-color: #242424;
+}
+
+.group-name,
+.footer-title {
+  color: #fff;
+}
+
+.group-name {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+.footer-title-wrapper {
+  margin: 1rem 0;
+  border-right: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  height: 20rem;
+}
+
+.campus-location {
+  margin-top: 2rem;
+  line-height: 1.6;
+}
+
+.footer-description,
+.campus-location {
+  text-align: left;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+
+.location-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.ref-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.cnn:hover {
+  color: #cc0000;
+}
+
+.icon8:hover {
+  color: #1fb141;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-media-icon {
+  margin-top: 3rem;
+  padding-right: 4px;
+}
+
+.social-media-icon > img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.footer-copyright {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-title-wrapper {
+    display: none;
+  }
+
+  .icon-wrapper {
+    justify-content: center;
+  }
+
+  .footer-copyright {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .footer-description,
+  .campus-location {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,146 @@
+.news-header,
+.subnews-header,
+.news-title,
+.subnews-title,
+.recommendation-title {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.news-container,
+.subnews-container {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.subnews-parent {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.news-header {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #ff1f1f;
+  margin-bottom: 1rem;
+}
+
+.subnews-header {
+  position: relative;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 2rem;
+  border-left: 5px solid #2448ee;
+}
+
+.subnews-header::after {
+  content: "";
+  position: absolute;
+  margin-bottom: -1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 2px solid #242424;
+}
+
+.main-news {
+  display: block;
+}
+
+.news-image {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.subnews-image {
+  width: 100%;
+  height: 35rem;
+}
+
+.news-wrapper {
+  position: relative;
+}
+
+.news-image,
+.news-wrapper {
+  height: 70vh;
+}
+
+.news-title-wrapper,
+.subnews-title-wrapper,
+.recommendation-title-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.6);
+}
+
+.news-title-wrapper {
+  padding: 2rem 2rem 4rem;
+}
+
+.subnews-wrapper {
+  position: relative;
+}
+
+.news-title,
+.subnews-title,
+.recommendation-title {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+.news-title {
+  font-size: 3rem;
+  width: 90%;
+}
+
+.subnews-title {
+  font-size: 2.4rem;
+  padding: 2rem;
+}
+
+.category-name {
+  color: #ff1f1f;
+}
+
+.published-date {
+  color: #aaa;
+  margin-top: 0.6rem;
+  font-weight: 400;
+}
+
+.category-name,
+.published-date,
+.writer {
+  font-size: 1.4rem;
+}
+
+.writer {
+  color: #242424;
+}
+
+@media screen and (max-width: 600px) {
+  .news-image,
+  .news-wrapper {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .news-title {
+    font-size: 2rem;
+  }
+
+  .subnews-title,
+  .recommendation-title {
+    font-size: 1.4rem;
+  }
+
+  .category-name,
+  .published-date {
+    font-size: 1.2rem;
+  }
+}

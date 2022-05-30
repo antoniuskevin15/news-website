@@ -1,0 +1,54 @@
+th,
+td,
+label,
+.btn,
+.page-link,
+.image-link,
+.form-select,
+.form-select > option,
+.dataTables_info,
+.form-control {
+  font-size: 1.6rem;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.btn {
+  width: auto;
+}
+
+.action-button-container {
+  margin: 1rem;
+}
+
+.category-container {
+  display: none;
+}
+
+.table-container {
+  padding: 3rem;
+}
+
+.btn-insert {
+  width: 15%;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 770px) {
+  .btn-insert {
+    width: 30%;
+    padding: 1rem 2rem;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn-insert {
+    width: 70%;
+  }
+}

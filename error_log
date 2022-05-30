@@ -1,0 +1,490 @@
+[08-Oct-2021 10:26:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:26:14 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:26:14 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcZrrUcAAAAAAW90hopriZMwXztXwNbefzKp1QJ&amp;response=03AGdBq24pT3Qo5NaFoAMQO2xUExgeC4E0XYWNR8QTAOX4P2QXqLOizjSwmQo8_0jY8iJ-8JZekfhLTjCjOwOUKJL9n8j1UHdx29dTieq-vx6HZenVe0jfsRTYwYl3nACPzVUojFxSWpKmhqcfinZNuth_RMDAxCGJtq7u1M08_Bra_m8w1PAtDVmcqby9tGwdT9_Y8mk2GsPgmSJXyLuNuILtnboZSUhrYWGJY3RyfOw0UWcaBj91DCU_61whRWiKxtxasGNBudVtY0C8S_-hk3N7gy8R_JEYSTwCXnEOnQY4o8vEo1RtqpPEKXzGIsNASr8BiXJPWM5qz5cjbhbNc72lr5UwhiNG4FBUC-ZEyuwlGYMm-V7zeVsVKLs2fdQRy3iuJ3VnkiKBMGeTHRl04htnoXkflKN6jNxsday3o_r5PZzPFZr5O0AymeXc_MmHpJWfyDJUaFoz&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:26:19 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:26:19 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcZrrUcAAAAAAW90hopriZMwXztXwNbefzKp1QJ&amp;response=03AGdBq24pT3Qo5NaFoAMQO2xUExgeC4E0XYWNR8QTAOX4P2QXqLOizjSwmQo8_0jY8iJ-8JZekfhLTjCjOwOUKJL9n8j1UHdx29dTieq-vx6HZenVe0jfsRTYwYl3nACPzVUojFxSWpKmhqcfinZNuth_RMDAxCGJtq7u1M08_Bra_m8w1PAtDVmcqby9tGwdT9_Y8mk2GsPgmSJXyLuNuILtnboZSUhrYWGJY3RyfOw0UWcaBj91DCU_61whRWiKxtxasGNBudVtY0C8S_-hk3N7gy8R_JEYSTwCXnEOnQY4o8vEo1RtqpPEKXzGIsNASr8BiXJPWM5qz5cjbhbNc72lr5UwhiNG4FBUC-ZEyuwlGYMm-V7zeVsVKLs2fdQRy3iuJ3VnkiKBMGeTHRl04htnoXkflKN6jNxsday3o_r5PZzPFZr5O0AymeXc_MmHpJWfyDJUaFoz&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:26:25 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:26:25 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcZrrUcAAAAAAW90hopriZMwXztXwNbefzKp1QJ&amp;response=03AGdBq24nJP71T9wV2R7MtxBUmprs4ATRMls7jXrR6lTE9YaFqyzm6b0EySfT6l1L6uCzljaJ4dTnog1_Ll3QxBaxMXmss0U4_rV8or5fdxPbyTkvJmfHkc9oiog-kj-xvpn9jyREGxy5TRwzjISJyh0sKUaPPuwRkj-QuW1JiIz1W2CDlicdbvZMtlqEZTA5op_E6aNkQvqi_1GvTnOjmwcSl0zh7WLQ9jyUvKvHM-mhX8AhThVYr7u-dFxnBR1YkZ9WbTURB-db6ILOgCZ7w5ooQcy1Rwpb1wWOprRKkMMmsTuXsb24RZvPZ42EjpIJWRSrx-E-JTBf97UIio7ZRH4IzcGPr6zYmRoHfaFb42dLPSs64WN35zeIXmCWQ3pq_2RBqoo5DgQq5yeAA6Or4jwdwI543KgEQCjsScNzCbdv872VAmYUonPm1qWMql_1bfoIAGbQn15mG--Yd2ar583xouu55Y6Pwg&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:27:42 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:27:42 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcZrrUcAAAAAAW90hopriZMwXztXwNbefzKp1QJ&amp;response=03AGdBq26G_GVBjkxtJO1O8WddIUpkdLOP91OF0gEgc-BBY8UswhGs4GRoAj0s6Bs9U08CmP2XCHXD1UVNb4b7e9gxNmuwJzG4A8VKJUP9xog7-aXcblErj9XVpvgCbF8Fl_e7LprRvN_bixYBsMsItCNpYFLDsXJqXJbHJdRRGiaoJDz3BpSh7V7PqL0UWKL-SyRqXw7L1HtOxLkiebSMJ3RWWnw_-1Q_1EpW0_WwVqi0tR2ymIvwksRnhf8XY8HneStMo2Wx1nq971VadDF--VMcszNbC7pPdo7goQo1FT2XLFIR8k2STRcaB6-G_5GgjmXfvAptVPAMvIS00FK8uI-wCnGqmD3jGFRCmWxQc5Lj0Y1ZNZoGpCi9gxOB4TeJ8rBIjfJhkAqi3EH_rEqcH9PxMND5NyNSjps9dbQIaKldgofo3eghQHaHQ5TQbZbuDubUuorjaKHw&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:29:30 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:29:30 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcZrrUcAAAAAAW90hopriZMwXztXwNbefzKp1QJ&amp;response=03AGdBq26YAGiih5rxYLhhpgD85SbWvO0nUDlNFum-vIj5_BQsr_xnXLlnALnVYEI3jZg8GMv1M1GVteah4-nLqll2gWFnIk6l2LtA2opIf26uENtKKs6KfHeNh0WPHtCYhiM2HEYJ2i6JFhZ9WAdO3kkoZCNboID7_0cXH845PRWbPehDH2T84MF7iiEQc5DIhJtNLH081pCm7RJZunEfLOrFeotwfX8MpIpZML3ZC-Q4Y20pW3fSNgO_r4TzJPs3yAiBIb8KIWYe-DRpAr93gTf4vSE7rfvsme8R55rw1bXFkZMAKdLq5m90uCh20C4Q5NL59B-KOBJ56PXdEDtdrMzFlZyhtPK_wnD7Lo9aQkmz-9SKfKiwW4bj7XM5rbL37S6G4OwdRNJDfu0y9cRtS_qDxRF-HxMYas8CF34aaj3CpC_DoXYEE6iItzzmmXhZkApipWzYnTRAXDZPRs0wIcTuBkt7CN6zDQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:38:29 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:38:29 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq26761s9Z7ZaUYEbnV68k8QqJGZWly1Nzy5sxniUWkcX_nJXx48M74JhlKcVKT7ADiNa5Xxw5vjvAEf7qQHTWCS6OXyCnflEFKzxLMV2ylpgBZ8q74TMDnzISQhMOJSN08b2H4bl64nStOvehZMBgI4KX_Koodwmkd-7Z0fdsJN3xB-LPdkFp03AgdGhzivyEM-cuahDcPgj-Xs1dofuGKiVIk-p0gFu0JRU3iAKWezXDGKumYmTcXG64WBkqGPtxD5Px6Bulo2CDcSPC-kxRMihd4h64GfohFH6Bgv0Y1kvvko1LtcKZTPQ3-DpPLdFSR2yyv5PtcuoYJhs-YgYGNAMYTH7Ae_2UaxzZLuuzbddFmbAkQFgT3-jCbBxRlfOu-APAb7kr4_CGgSu3G2MVfU9dGvPG-TkGUbiPdZkM8TzutNJM1vBs66cu9zsdmdQ5hsXU4MP&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:38:41 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:38:41 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq263MAsuTqSgs-FypooERGwsEhkqDk7_8nBZYIhuDMrVZew4S6a9WjDPN2JnexRADQeP7KPKMJASIVLyvq1dhlIlf0SCMfEpOUicn5pmoyI3tjcwTNOPV8h4NEtisuSMUFYGdlYWnN9nWLZlq8z1asZjYme8nF6lt7xoRJ_rHhvTuGluFKTimSR5QmviEYlUiChwRuoRKspR2Ge3Jx3u7ljcdWXbDDCGrOXRsEhhREL0R_n_hLJXNxPzqWf3PfcJsJcSvYXr0X_8XkftNQf_E9DPasfubYAIlW5Y3P31WZTCfRkrHLxESj-62QMN3JR9e2W1mFrYSj1iWI4tSuVEqk0wYl4blyKWSWLjNtdEQAdV3j8BocVI4SZE0k9hJznzOLOFz7Fvaa1EIXaJF6r-SPuPbfwurte_MKiE-4-pG-xtiosG5ujstZUYx3bnfmtovp2Q93WNpuHJmftpdtLI9Oc0L_s0wQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:40:08 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:40:08 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq263MAsuTqSgs-FypooERGwsEhkqDk7_8nBZYIhuDMrVZew4S6a9WjDPN2JnexRADQeP7KPKMJASIVLyvq1dhlIlf0SCMfEpOUicn5pmoyI3tjcwTNOPV8h4NEtisuSMUFYGdlYWnN9nWLZlq8z1asZjYme8nF6lt7xoRJ_rHhvTuGluFKTimSR5QmviEYlUiChwRuoRKspR2Ge3Jx3u7ljcdWXbDDCGrOXRsEhhREL0R_n_hLJXNxPzqWf3PfcJsJcSvYXr0X_8XkftNQf_E9DPasfubYAIlW5Y3P31WZTCfRkrHLxESj-62QMN3JR9e2W1mFrYSj1iWI4tSuVEqk0wYl4blyKWSWLjNtdEQAdV3j8BocVI4SZE0k9hJznzOLOFz7Fvaa1EIXaJF6r-SPuPbfwurte_MKiE-4-pG-xtiosG5ujstZUYx3bnfmtovp2Q93WNpuHJmftpdtLI9Oc0L_s0wQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:40:13 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:40:13 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq242dhnjUs1lH3pFzwWYFGymsf8ys6C-Cma0YxZCuKabxzH6UQxS7yaow63CFypbc42Ea1KfwDeCQGl6TMVdLkD9yeNitEpQHDMyIqRwPif6X0EPD3PgNHN0MMecjMbYTV-QjgVx1Mc3yIZ9tjfVFBGGBPbdjJPeJd-mpAs1bHAwyBdrqljZn5Q0e7yDGhtZ50F5mw8HnXXkxlSaZ16x2xeD9bE5rkwaBY1UuPdF2QHo7Gu4xvpk_2KHzrLHQOMRdHZPcSBDlKFc7tTHJoK63Mscba9z6jh_zCxKpJsFQ985MDaeZ-uIEMkAbr7h2GAYfazXP58WbvEOMtO8kOZUgka-8Q6TZeMkxYOxEQLZyEPG21FNHMXS69AnzzNF65rZLYbxaBR91rECYgEONr2tiH0dWM7ZNL7nNuWs3gA7FjYHk_AkiOnOASHETwkHENa5y6Hbr0_H&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:40:34 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:40:34 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq25avjbq8pm1E8bPUqXFx2NHDXA4w-7VZBNhSu3t6iUqcpzTlL8v1N3YJ9z3YErn8-IpunSzqH1QoVU913j9Wu8BNmFD7rtIwMkmZxvLFCeSw7lGaQ2f-pJw-xsx8dcmsKdg1Uqk7mZLmNyCYrYkDCol0N29srOxIRSnCnzZUaCdaZEGDrYEJLP5RMtiKHcBznIj-e_-YMhrkcwYS0cS1IN-EtGvh6dq-_7HptA6Vj8QR3btBlillsvMVeugYurN9orKezX01cEFarbviHya7E94jnAV-w27N1lrFTUX_AEufVU9putg0WNOLzTdnyVro2_ngSSJmwj9gtF_bIb0F5DAuE4VI9vNhHdrHdz8EvvjSX20OXxeXnMabUHNeYn6xwfvq9v5dwd6E5dE7NLhNPGNHeXZ92PQBuzqo65y3y-tKgUboya_Uz9OdUnPk8n10fpfP6s5&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:41:51 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:41:51 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq27TtaAfWBWo26QXZmB1dhmMPE_aq18rMGCgIPNCQDZyn6WqmOAQZdOcGtvf8ruW7MP3RJRk-OVMMQ8NCal7pWLHuGc1ZHcR_OdK5WYWyBeSwtwBx7yOvWQWbUgvTGIWGtk68XofuLkTIrQHoVYad5Dz3ySMp9Z9c3jQevx2r7PDuQC-9Hg7P6yR7SGp-2OpUMW2Hp24VJlKzvMFsU5RSxf0xGvxgUodSVyInmoDjvnXKGU_5IsaYNmFhwD-71SmQhb1fLvj5nXWjXcinQcc3c4YMvLvfvI5VLQeK0tiD4lIsyjL9-y8woYU387FGf-sYh1URvgdYcfy7U8XtxBBmaiI4AWodfc6uLfSn7zl6b29bDmvcIHzwbyfRzaLUicTkPeXUq0ncjtw4VhVNXzWgVNRrgZrof7sZj4bHg966zcjFZQNskLHT_bfg3mbI4NbNKpZteWpt4J0u12a8brdJGZk7ydMHQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 10:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:45:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:46:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(75): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:47:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:48:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:48:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:48:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:48:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:48:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:49:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:49:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:50:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:51:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:51:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:52:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:67
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 67
+[08-Oct-2021 10:52:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:65
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 65
+[08-Oct-2021 10:52:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:65
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 65
+[08-Oct-2021 10:53:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:66
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 66
+[08-Oct-2021 10:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:53:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:53:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:53:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:53:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:54:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:62
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 62
+[08-Oct-2021 10:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:55:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 10:57:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/secondne/public_html/view/berita.php:61
+Stack trace:
+#0 /home/secondne/public_html/controller/berita.php(76): include()
+#1 /home/secondne/public_html/controller/controller.php(5): include('/home/secondne/...')
+#2 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#3 {main}
+  thrown in /home/secondne/public_html/view/berita.php on line 61
+[08-Oct-2021 14:37:23 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:37:23 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq24a90H4S2Y9-1g4Gl9fZf-0tf6c6PEAQjC1x41Lwvhwzv24LiOJzN76QjLhtoc51EeBr-VKfT4jXz2-6TllUVdPl4sWMA2fsAV0hBhzEx599v8ewi7OS43LQe0pWZLbiQar2r2_yY2m3O3793m8RGZYCkssVjfSaOI562gKQxufvoq1yExAipdv0ZF5-2sWI6Rm92AXfXneoEAwwscWvweCZZFze8fgUYbxXtmuD9az_UDWfhYra7Gv1UQq1Vx-zoOGHPCQrYvniRlAua2anK4FD-m8gUOPj_9O0Kko0idZVzBwYO2OyDk073p0LYtyzDGqRS1LrPYNbhGTYP0UHU5YIBXm21rAUc6PDCiVnf4tqVn29lq4Eu5crmwIZ7iogux1E_f255fofyeZCR2az-l73216G_knjOzX_MnkWq52aprHUL4_svoRddC_w4as_atKyHQqrtLQ71BqxxWobeC4C5Gu4g&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:37:38 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:37:38 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq24yuJwrnPfBx0sOUzcY7ZbwfYZ0JdeuoVhi9MMDbNvyGEYnyD8sDgPsbn74KH4FQdsZ73rlNz_fNLLjKSkk-AXH2EXTiOszDu6NNwLnCUxGSdgKTnua6vhx98dVyoK9DUGXVyFDXPMKZlBmi5Krr0Pc2ItUSG3HLVXQJM2-LyjA5qRMcl1WTPRl0NlKuaUHL5HxysmCc0n69VI9lXGEj3Mx7FdRgvAK2w2hk-98xG5Q0YbXL5XC9_ac2NGBOi-xwpaBhFSH-bj7LqG_ELaY1tQA9F4_ZWSZ9LqtgdmQziKWl78k1T9LjutGHX9mEJ4J_-uQIZQ6wTA4gBOSAq5qFLo6ugcho-19jU3Hw02uDiySsgnkBmNagkVlVoLT-uKQzx6Al31yyvovRtEx92R9u7gUdzrCqg-PC0YeD8zL7XwrJi3jeYzpp6PgP_4283Ku4NwA2kFQsWvfxycYrG23KGVO61YC4A&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:40:22 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:40:22 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq24yuJwrnPfBx0sOUzcY7ZbwfYZ0JdeuoVhi9MMDbNvyGEYnyD8sDgPsbn74KH4FQdsZ73rlNz_fNLLjKSkk-AXH2EXTiOszDu6NNwLnCUxGSdgKTnua6vhx98dVyoK9DUGXVyFDXPMKZlBmi5Krr0Pc2ItUSG3HLVXQJM2-LyjA5qRMcl1WTPRl0NlKuaUHL5HxysmCc0n69VI9lXGEj3Mx7FdRgvAK2w2hk-98xG5Q0YbXL5XC9_ac2NGBOi-xwpaBhFSH-bj7LqG_ELaY1tQA9F4_ZWSZ9LqtgdmQziKWl78k1T9LjutGHX9mEJ4J_-uQIZQ6wTA4gBOSAq5qFLo6ugcho-19jU3Hw02uDiySsgnkBmNagkVlVoLT-uKQzx6Al31yyvovRtEx92R9u7gUdzrCqg-PC0YeD8zL7XwrJi3jeYzpp6PgP_4283Ku4NwA2kFQsWvfxycYrG23KGVO61YC4A&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:40:29 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:40:29 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq26sA3fffZMizFdaeOhfPnLR_Jol_pB50nfyznPmviPSHlleBZnokNSKpZV9QkjZJXt4DRaKV8xiPwICpR2WI_TKVR9yYvCekhqrOYSX22auyRPsQmqwqmghA9VbBUSFvR-_bTFVggOzrNkTYFE66-mpgNXGr-mvYd9Ir6VxWYBdx0eiBJ6C2zt83Z86y3Pe9GnGDzWZV24PO3GTGWq5ObO-Ig9r9Bmhvydjmc4LnjRb5VK2ZeDHT56QriMrWtbSYexqQPT68t46kCH-GFvFc37VuLx3ADWqF4g2xzay0SdmNhN36tcfmR5DkHxp5IAwyIMv_U3uMh6XEz2vEGHwwS_Rbo4IaWkLcJV6d99wyQvtFKDpA9ClGn4VzX4Dl9S2rpCHwYLfsOZ8QF9tl1vySdobbjsKUiSCcN_ru3hzB4nFqU1aJZpOPa1Gvp0WSnk1e1qMILZ8beyUJa2r4veClM-RfNEbsw&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:40:41 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:40:41 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:41:32 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:41:32 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq274PbeaLQHH1EhP_J-SdWS-Jrk5SMWSgnJClzs1EpKqLZOt0gLShLGwg1xIit8fYeOIbG5FqmqjMWUYqJlmOMhefXWt8pduc2W52_1wFK-Q_BQKZRRj2Jq9QNrkfnaF1DWT3kn4VY7glunUfPf_-mrySPmcZavvqJk09InOP0aKIW6fQxJ4KJVt1Cwcdll4ySSmlL9pNXFGXoOBzuPIMy0d-X930RmRLlO5MM2OeAAt-V4ahVbJiIQYs7PZmG_X4FArPcsMJ7aE2oT4r2ndbhOpkagc4L3w6aI2Hlz67GGzO4vZ5SajsIiM3eiMhHXuAR2sNspf7R-jG1LCgppb5wQEukrAsmhysQfTbOXnGIpQMUIcOyyKEUyQ2jQ9AYcL7YLa8H99TjHehlITKnKjlDSJXkp__E8Kx5ILc5udyWTU_AfTxo4oDcAoq1EOth55fgOv2vY2VmTyPmZATqCpEJQk76li6A&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:41:51 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:41:51 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq25DAy-YdNzJmn6q3LhR3s039VaWca3ItU93h3YC0s8H-itkzIk08ZX5tGjYU38o6KiVl26qVv0TWyr0Hs0LMBQahG_IjrGQvEFakOSZKNyzhhb-VHkTuyh7Q-qFsrbWiNljseTAuChvyzUENcl2rj_B0ox0Bp9ThJa8qv13wQ2k0mlgIDjwzVWGfVgNtXtdQVPh8GOMza_JDLFfcO_aVR3O6QCs2Fg-13JRJU1LiIZVPXF2rW2X93E4tjkBv5jaoe2BZMS8544ygeWcoaxerUGuEnKlnHk-8_7bKt4E0cQE1NHMlE6sBCHjajgAjHiqyU4vHEQ6Av5uDAyZBuVetiQ_Itw4VKhUVsBOe6fT-kCvXaCa3qFkjb5m3jrV2w0l-Q92_Mc7FEvZbgU2m7XQdpOrFfHGcIGDZ_-T44jvoN-Wf2Uycoewfu-pgl_7OQSd3q44uYSZi0EDKRS_f9JqDtl66VcREQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:42:01 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:42:01 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq25Pfwx5uWvTb3aevC5pd1wsko2jsg7MKHvhFM94nsTLiKw-iLHiS0ddNk5_j3uk3zkYoKfy4IDOFM5xYQ4QnMFw8ibf2JR8SdmG6xnb55pmdkrZgbAbUliIQAe9RGXP5bbnwUQmMvb6wFjoyvzx8WfC2Onr9ItN4WQQjZfFruVvJmlQZk8EvwbrWtisQkzvvtZgOJ3_mvySlkturMPtJBn0PW0_oHlmra9IrWMR2eC3PS_6rrF9Yxf12nvbfkNXgsOB2pDRX6d2_zfrYCAQRw13IZpe2onsV4tnygSXs75Gw83Jl8HeATm3jsBc3-uKrn7H5eKtrwxeVgYyiYCuMmZ4Tc0rrDD9HizsDvNXZqXb42AjQVcY-Ksu3-vOSPxBXjFvZoTn_hCiIizLnlHOHM212I8e4dHbNWN3CRNFhLqYHfGUCrRWRSz_E_Jg6xp07vQvooa7TywQxPkp7WMHnM-65xC1JQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:42:33 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:42:33 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq25pjXiHBPMyQtq_TDGuArJ2Sf6QiKUNtTi8Qn80xxQM_IkyjTlukdbX5X2SMp9vqm-07HIATeSuDz0PoWMRO_0nGB5D-80_BYCZcJ5416KmcLFS7AcP9z6hOotgRgXKrTTm1UNvAA07CuC2YBBzpMwy_12Z3ly5n0TBzx3t6tMdxTwXG9gl0qXvpJumgWcPRS0WrYPbpWWd-giUaOGdCunNWThCdI9-A98DpnWgSaksOaGb6hAUT8jPpvlBrRLQx4t6AGn7hNCFFUTI_jkmHBJV_1DzyeKFW3XH4azYlBabGAJfnpR02VHGk9qQIl7RIGi93FsGpw3Ah0hhPQwpRx9fBprBpj0Q2k7KQfChymc6XJccF4_lnFp91C2ClYIT79IvqRG80yG-PaEDnNa6shYeVB9Zen3oWMSznZ0hZ6npgY3ARW5BhdWCZZ3S2Fb8NoBczfbP4BJ7sK7LBjuFKkOFkh_kqQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:42:55 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:42:55 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfwWlgcAAAAAGkFrA_hXoSm6yZRTLBmi9p4ONs5&amp;response=03AGdBq25pjXiHBPMyQtq_TDGuArJ2Sf6QiKUNtTi8Qn80xxQM_IkyjTlukdbX5X2SMp9vqm-07HIATeSuDz0PoWMRO_0nGB5D-80_BYCZcJ5416KmcLFS7AcP9z6hOotgRgXKrTTm1UNvAA07CuC2YBBzpMwy_12Z3ly5n0TBzx3t6tMdxTwXG9gl0qXvpJumgWcPRS0WrYPbpWWd-giUaOGdCunNWThCdI9-A98DpnWgSaksOaGb6hAUT8jPpvlBrRLQx4t6AGn7hNCFFUTI_jkmHBJV_1DzyeKFW3XH4azYlBabGAJfnpR02VHGk9qQIl7RIGi93FsGpw3Ah0hhPQwpRx9fBprBpj0Q2k7KQfChymc6XJccF4_lnFp91C2ClYIT79IvqRG80yG-PaEDnNa6shYeVB9Zen3oWMSznZ0hZ6npgY3ARW5BhdWCZZ3S2Fb8NoBczfbP4BJ7sK7LBjuFKkOFkh_kqQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:47:39 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:47:39 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq249Mwx7VmQU9Y-tQpbDZYvEYiqxOl-caMK1_QweZNwGxqyRnoDG3Av303zHknLISyeIYW2xg1o6APEn94Xn74YAiLZkvFE6XstGKUeigqrLhwV4w5hXd1jVpFUUQAhHHpiIgZhUIU-KlM9CANX4xzbaOuPytCJPBlbcVbsIeWl_UP9Y-ujfJCHeQtG1_C5Zkr54A9IieObXEDzEcVBfNbsOuCmBfso-oVJeRnL-7CKfutzg1Hz6R5UXtJdw8tdyYkvGALRnQs1bXjCQZJS_M9ex4rHey4ZkONM5Cb_ObJTI-_xwl6ilv73jVImD44yM-czx4j9dqDmZUp1wYPkgbJiQf2lW2OSuE8eAVjP4CHLZpKeQdc7e3oQNnwlKu_n431YArxz2WK47CuGVwsrQ821cPUn_MYRoP-YZ--ahfc8p49xhukJ7XHNYKkoZHV991hhhybMpXAOL3QKO1VP2w-akNFAu_A&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:48:36 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:48:36 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq27m-gOhmAm7SyKHAnh-B1KA2INsmGfhKQPTHbIS2CYCZ1rok26iZMCGx35CM2RMpqrOnj4l_3m6qW_q2kRrOlxrcCjvV_LV5Ujsv8mgu4e_UV80ijPZUFRc8mkK0gP-i5HoQUlW2Fx8NX9GcJBRJZQrNKgCpDczY2YBIM9QrJWPSsW114X0UrW0XHJ5lG6XYsIR7TloQPf58ykEVNqheEHmgEi9leZDTDv7eVojpA1ogijpS6FLX2Lvj5JOlr8Qw1PFJtR1yzctYrVNjscIFwWt_FkjgrX-oGl_6XfF2F3d6yrhRwzhS_6XuKre2fSAIPDwbR7DvVOE3yG5hjhSSkWpAvSXWPYoFnnzA4ThnQk2FSkalULVqjfEEV5fGFnXo8LNGvBO9J_NQrrOoFkYToStymbVLemzcmMdpQliaXgSN-696yXe07DVOaUQwm0HCLMkE1AY_6JM3bjPYf2eNy-LhAbATg&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:49:58 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:49:58 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq27GhPiSOr5-H1tAB2pVFN0u7QYfCKVmeoMtvHmtEDG-E4F8iulDT3bIs36cjVsIdHgtU5W7XfcamUCAI0c0U6TgNnUWPs8ex_GwFHNDk-pd0TlI53sb1JazvsKNPbnkeIAYAQXarZzRQZnPiXQ1hHkkGex67uLcpCyz3PjK8TCxHq41LHygwRj_oo7OxqjpjOla7T9xWKYDOCMFAHlWlAAuFNxJ0VEzwdZ7NDJBQ_Hkrm3uj3_QmWrJczpx9v3yQhx00cYNc7npOHKDEAbgPUsPwbPTRhDxlpvdZfPZy8dObXyAiYVSjdAbuqdC004RET2sT--QM_dq2Qnukka7TJ-F49NpXQmEKpKQO0I8QxMK557FkRph2c_2KFujDm5jZIVLS4sbWj2i9sCvSq0SQQKDQURfhjGaKEKm9m36TiHTwxXjHfYLr5PB-_Qs80VDpgAEl5j47OHHCCZZDut-cZViNCZp-Q&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:50:42 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:50:42 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24MOOEtNnTA0Pb6N1ubggQq690T2yx9f2pXGwcUwrzmEkDxLfvtfMJgSP2aGn9ZGPcQacRrL3MtkwuilUQBU2WwE76SHFU_2l8mb2xbcXHRDLieLoFJJoP6YEM1DSBTITnmrBB3TpjlIp1ecLNcUeuIBH66YMwTVLIrDviuWXdyDl9ySl7-WSuh3PlM9F15f_fwMnHm3y5iHVhkSbHRSIPmUUxmGg_6XQooeKJ6vj5aOjXR6qZkU8rYIGN9EnZnQ7JL0_9HE3LnUYLfqO-iDcPRqlxn6cTdU3LmxdHFmWhoJBYTuXX3_ffpBQjSt3Q_MInsmNGYx6tHhHnmcqwV5HxfsKPmqtA_TX-QgHZ-OSZhXnHTfwRM7uMS6W1Fn3ewKbGnDTViYugsmgo5Ap89gbKokv8zQ-ou0h0Ibulp9wJ1F6kQFOJC09Sk-cKitQU7X1uqfPdjQAnES4pzcjaTcKy7XOb0Qg&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:52:27 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:52:27 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq272wI8kweoVEoRquCVqtKYAMjxEPOOFfFD8yxFfT_yBiXbrwsYgcH6umDRkRJjunlHCJCPnuP6IR4iNCah7f20wigpvesDDSrRtwWaTAYhb2emsMv_l18HeqaOznTzYRO-LPTSKbA_103zDEDIFoYe9KajcINkt5jIZiQiTndLNW3NVV-B4cqTqOFs6Tsq2Plx9lePF8K4ONENnpd5OxlQ_oK5BXz3jhSzXs62ov-WzczY0KUgHS1n_uANE4sdifIJqrwRhuoDxmJ1j8_ZNaGDLul9t1-eikR2Aspe9zgJCVtroG6tO7OKOclYIg6kVcdO2emr1FaCpON7y_-7n8shoVaF7FAZQJe42pMPPIZTkU3JlDlivqFWqquM8ng3NwGxDLnnQ7DLChuy3L9wsA2PM7N_SoZ26NwYShl-j9C2wVY82BQX9Ehx4Gei7by1By9x9iG2nDxObqfXkzm4A-Rzs9kcLWQ&amp;remoteip=139.0.207.48): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 19
+[08-Oct-2021 14:58:11 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:58:11 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq272wI8kweoVEoRquCVqtKYAMjxEPOOFfFD8yxFfT_yBiXbrwsYgcH6umDRkRJjunlHCJCPnuP6IR4iNCah7f20wigpvesDDSrRtwWaTAYhb2emsMv_l18HeqaOznTzYRO-LPTSKbA_103zDEDIFoYe9KajcINkt5jIZiQiTndLNW3NVV-B4cqTqOFs6Tsq2Plx9lePF8K4ONENnpd5OxlQ_oK5BXz3jhSzXs62ov-WzczY0KUgHS1n_uANE4sdifIJqrwRhuoDxmJ1j8_ZNaGDLul9t1-eikR2Aspe9zgJCVtroG6tO7OKOclYIg6kVcdO2emr1FaCpON7y_-7n8shoVaF7FAZQJe42pMPPIZTkU3JlDlivqFWqquM8ng3NwGxDLnnQ7DLChuy3L9wsA2PM7N_SoZ26NwYShl-j9C2wVY82BQX9Ehx4Gei7by1By9x9iG2nDxObqfXkzm4A-Rzs9kcLWQ): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:58:43 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:58:43 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq26i-CymyxZooDVxngyrAannvNxMlb8riOSMgg6cL7tTL3zoPfkYgXd43Jcf1wGu1gup0GEIjqYjAsHO57HRT5p-vXPlIAJxRnfrexO1T1S26YsOfX-lftId05dcaL_kMbNKh2eomfU2BEamLHq1fP-ls497trRihsRUH5dt-Ja0FHfrDaNL_v2_BHipDXvAwV1nCdO6ZIldSMA8-Rh5sJ7OWNj76mRfwYMSF5WoaJiNG4sx3iOVgdOSRZgorOafGvLhvpOYL_6T4_g3sbRnWmPj_f1PBsF4CYXPNP44cgDlUfNXvwKPlKeGhcrCjlNL89WlsV-76AOmS67qTA7fSwuB9UmZdXp8Uo7sW2RozN9KARX-APASQFJJJH3ZO2yKDA90J2-p8DnVG3fwC8LtOMT9FT0UIEzq2bhInqutYLtEhPv0EdoexhLs_PWFk9cEDTrAA7rqeMZK3iE5FPrhWHA_RERzgQ): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:59:04 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:59:04 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq25VgKj8_6ryjy07DAfGcYmH6ZZZOKtw0GH_6emLF0LuU8ZlOpSHJwgCppAfcwjdiGjciwvp3MARMcpSdVXcfrESIFeIRVOQypTBjnWUoRjwOcNAaLenw0BeYoIsdRSUrM8-jN90hSuAVWHRkHrA6QS-7JAqWnZzzxjVfyU0AYkcC2NOPV5JKzB0cp2V3I6AF9RxVv1D2k9SPkLUS7igltlGaPnK43zBhQI0dMvcNgKkXaaFb0c0tMJBhgZ9MwNxT2jAhAHfzotIUufq1oFNCbIwRAiI7ioalQLDqZfoyyxQoQwIbAkH7DIvte6iWfhes7qi5-DhjjrOSUMaTfCx6lG-jkx8syyElI4iCxOpdUhDHbXxnT59eRTy2iZuuWmT4pNcBF969dKX-5Vv9x6smFjbz0dE8MvCds91XWfQ64VUN8JeaytmvPP-arA1BVp1-MpOBGjO24q-GgUX0oQQVeOSGMonTQ): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:59:43 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[08-Oct-2021 14:59:43 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq25X_trkpj2LKJnBXIHkt6Gf1DKiKMiW6TzOlF1MYY9SWZ2Ifz4KZU3FswxzqTmAu9cQgURQjrF-OIG2JBweeYsQ_ds7oRD7NJaI63XSU8GjyMHMO7REUknUA1o6y5Oa1RjVn2c_CM-Uedl0t4VJtzlgaOwkJDFv4-abhDAN4F9eKJFSge8ezG_-3u_panpxfeIaJaZTRWiSoMGItYdwT7Pj7iSC9BkRHPjEP5X8hekthEZn4GYo-M7Sk_QFxKaCASvTgjkUpmais-yqB5NBxAbtepVelwPWzDuFmYiMxpIjQeTE9xCEfnWdupcDm3RgYjx3UfCQ1hb0vz_QfTsso3fYMZiIO2CAFdhUQoIlMXNPaLLsNg-A0vRuWRoZAvNtpzl-GhxgyKpByZT98I8v0l-1GBIZbd_CK5SklN9_tPpC4fjfEdnESQ5_VoiUK3bvgvJBZRjAqe4WEJ3W1RdFmakZ7q3CMw): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:02:18 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:02:18 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq245cCJLVsFYxG1U_T8ZrZlwweFyjIUduQOI8HkyerrAJWcC_baQ5ypG-Fj8uKB7xLkmsSjbaDQKQaJZChjItaLuatmIpxrqjNakNf_UsOmghG8XFU3SOPhDxEDDuZZ7mszJKHzZiCwurbgV6Xo8LyUG27JzRDy_H3tfXROJFakpnrbm27waDX23oIPiIR4fZTv9hVhOAD5nM0wYDkyXo1qTXN2qSzxi-M3L7U6x9sZOrvq5e17uai5ypdqVuViKwo7Fr9kble0jKMIm97up12YJ6Hkeu7L_8qWBOJfWmM_a4kfn_Zk7G7RiaEdaXO3aZHAOeHndtg9gCcXiNiP3v62kkchYK7oBn89ysNgTc5h1HMP123Fobbjib6qm6mRbHIgJfmJBL-3z02gpS1gxS4uHImZoRx5f1IGOLY15rfntWkeRxSJMYlVKShTcCqwktWco6YKiy7KtgdmWdrMlEjy4VNn45w): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:02:54 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:02:54 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24jpJU9vd6rIp5oSFPJwDCmTHQsbSpexVOJnaOuCgAnU8Bi7oVwuZGKHAXVb4WEjleEs6b3zzoh6vaCcK11RMKkAFJ03L8OIu0qjXUnYDdXgDS8hhL6GVUjyY0cRgN-woad8_4kets6PvalkdALlzt5frxZRwzTgj5rnpS0rCocPquAXoFRDHe5VVGBaFO1aAd7hNq34zafbB9BYhU9MHuhsrhvOyUklMmRe3wkQDo_yyf9zhRggIf97CZx7c0myJoBk0pZjXgZCJL3IqNMWC_k9BQwHdul-b0k9y5SXr0spLxGAzfTA5te6qd1iwqwrnrQ2XBcWwA539NCFzC5fQdE1GLtFICBV7OazbMBQF0qOMPynxZbY5rrq4WcWZ6M2B1G3ow6h-XhX_RzkmX-8oZZZC0XxXqN4b0tOK0Qj00vLY2VJlvr4-Hj82fGXJxTSmy4Jj91): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:03:05 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:03:05 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq27IZopwwBWrl-UZ1Zc2UziXPdY-2J70tJ2BfV38oEG_gi7Og3Y0pc9oEIT0CUZ_E48AxVapJp1TSCkOGeoh4ClbmFbVzKpULOJ2BqamB795BznHnb8lXNPJB0syLHLvxFcE3aB3tUOPMQE6oGfr4GK5l6U13wTxDeScoYsisDtGzMozfI8U3QB7k07U2wfa_UusLCkY3VuuG1xuzUYCADXXLHa9n_wir2QZAYxrYmB_d3TVYaRpxtFbcA8gk53cKZAvYWMm1gYc4EawOYVREQ4aTj3yQTcwTN3HaUWyrBCG6Jw1wzeembdhsSPgsTg1sxlK0c28tPFeQVuO0rw_LEo2-Amq5oFtt9TyPT49uelR1HWcb4aMM6s-UrHPnGgRDHrg0WykkBcfjtEnGer4YlAvfPl_QYqDW1SnEG--anJaHisEt8rUnpMwI_ESMO3s4PDrnFrSf_sRrqueQEV7iWXP0lSfzA): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:03:32 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:03:32 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq244LYagFW3KxA6UMy35yLhmh0x579tAtGSKXi7BRGCkTHIsG9Zy-OH6FGkn_5JXiFzxoP5oRgOEbigFOWSy-xi9Lg41oeKjgW-vRw9uyXNTAPbi1QabDP9Ma-kl8-mbXDeHq68ADbXE05SLu20XBUOB2wyTdkqtMMIU3A1ny-PIrIvXdauhbGXDMep_UbxZMzRCRWP2OGe0N8OyKnngMP6Pn2h0ZOvKSAuEFBdt4dFXS3n6kNjErTKCcgGVYCcm0g_lFdrocQropA2SeXi_lxBF8ZyTMJ50qhT3z0ig_T-t58LUuaZGcpThMU6HzqjsFtuJzPivjOl0umAR0zeoOXK25F9P-NZB9l_U1FTE1QHwjMZdRlMCt3iTZ5Shomrdx6E5wIVuLwQkyHoXJHJreBUhqK9o1Lj74FpxWd6Kkzj_iYM-a4xEA28fcZNHuIIC5ANE0sogEwFIQWliG3TXr8auJv57BA): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:03:41 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:03:41 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq244EVouNnwhyCEkE38KyU6M04X1k_tgW9kgvZtQ7L1m1CG5kGLoOIT6_Qt5m3Yfe4Vxq7IZwSXuGowQmbc6rOwIbqaOCvLkCUosWasnaFK2arxOlJ6REHbj1Er0ZL-JIGLD3SarnvCpmL7XhEbfHFNLfY3roYfKyBA9v-61_CqJuRpgF-pI2fYYtQ0ntsmsSwgKujPk_65AZMl-V9QHPhQDwlpd9fabBDw29_9i_iF2pJyzEUegXE8XX4Jvo7gus41XozY6nuzBRFcYn8nElLUNpavOHBuNf8yy5ZLCyS-Qk-PPd1STQ9asPR6M1Zs5xvByEFjjHWh1LHeOeg3gMGpVtCKwoNV0f1bFWJBdAKZe8VdQQ2xkHpe2BOXAxnXLjQLCYqj2sCTfeg7SMCfnbBEoCcsE6vW5i-ItwYsOKUYXZqGXgsFsE-ZRPUc_5YV0ghS8n0Z_): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:13:31 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:13:31 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24ebhchw7Sif7ZvNp3Sh-1A_sQkqvGFXOWQ1BUevhNGbgWGkN_GstgmZhKzN3YtfiZUQVV1aVynIzmOK-LjFDtzCUnzT9zF88CiqMvUKqfm4OAIPZTYtWIoIuF41ebdGSIWRYkJhbuD58hjvMF9gAe4wERpan4xopLReVlbfu3U90mSEuAVOub1XQ-AOr5ZI08yxayYnfBuCZ67waolH9i3lW0VKCN9HGgaJg1sXO3-r_MYjbf_HngGxnAez1VW08C-oS-7H6cm_AUTE8RopxZvfjaFn8lXp1Uhd6iIGByexUqIp9oUQBh4PV-QbZitWZCdLWGuqZATyDhTkGL3b82CHiVMwZtYF3_NGhx2XfxlYP3FwgNUPlHmHQkutrk5eI-maMkrOAgBq-SKLnrK13njn4yL5gNLFeocd_d2dIF1kbv8VvVxj32wq6NdHHqHJv-T0daKENOTplR6rQw6-Pd2Dwtmfw): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:13:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/secondne/public_html/controller/delete.php:30
+Stack trace:
+#0 /home/secondne/public_html/controller/controller.php(12): include()
+#1 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#2 {main}
+  thrown in /home/secondne/public_html/controller/delete.php on line 30
+[09-Oct-2021 04:14:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/secondne/public_html/controller/delete.php:30
+Stack trace:
+#0 /home/secondne/public_html/controller/controller.php(12): include()
+#1 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#2 {main}
+  thrown in /home/secondne/public_html/controller/delete.php on line 30
+[09-Oct-2021 04:14:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/secondne/public_html/controller/delete.php:30
+Stack trace:
+#0 /home/secondne/public_html/controller/controller.php(12): include()
+#1 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#2 {main}
+  thrown in /home/secondne/public_html/controller/delete.php on line 30
+[09-Oct-2021 04:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/secondne/public_html/controller/delete.php:31
+Stack trace:
+#0 /home/secondne/public_html/controller/controller.php(12): include()
+#1 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#2 {main}
+  thrown in /home/secondne/public_html/controller/delete.php on line 31
+[09-Oct-2021 04:14:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/secondne/public_html/controller/delete.php:31
+Stack trace:
+#0 /home/secondne/public_html/controller/controller.php(12): include()
+#1 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#2 {main}
+  thrown in /home/secondne/public_html/controller/delete.php on line 31
+[09-Oct-2021 04:15:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/secondne/public_html/controller/delete.php:30
+Stack trace:
+#0 /home/secondne/public_html/controller/controller.php(12): include()
+#1 /home/secondne/public_html/index.php(1): include('/home/secondne/...')
+#2 {main}
+  thrown in /home/secondne/public_html/controller/delete.php on line 30
+[09-Oct-2021 04:24:54 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:24:54 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24_N19eIOKFFtHleYJE9r93UKGI3RsvHw3hkVfSUCGbAF60vshN283VeARby82ex5fG3lF92QN3ETz0L9tQ66nZ92budrdY_B_G7jZEshqOs2sBiKtuoZ7wEUQ8RZ0tXGCPCSM-p53YbFMiwTxsql93wNux6NBdxi6y-9zsX88OTNTEVHN7TiQN3mcLVzt5cdWsib3dPimkQqUgqtV71CxGzyJOeHmAukXRC5CCg9Tx_SFsYcY8N6BblhuZ_nIch_q_UE6avWc4Y9k5_v5AMzLhwPJ88wdlRbwHW0yZ5D5xsI5E9RXu2uBG4geXJwFaPUlEstofjm-wvr2W1NhG1LqqLQEXjh7S174Y3cXegrjkwQtV0Rd9B2a5s4gAqO6bj2FNtV9gVW0dsSzumS67-Vre_UUJkwTEFAYPtwL0he2k6P0p2rq-OcqnB6lpyG1NyBo_zEAH9zkNi0HIrUnUEzMfe2ThYA): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:27:53 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:27:53 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24KUpqkgiQrpVqIj7EPCHu4lVlUdsd9Fzy6CwKv1QN4-Nv4ZuzO9rxvTpdmyB1Umvd5h57xZyfm5fQ0QyVDF3nUBBgHOBNVJbPPjkxZCDeQfD5kcumtSBpaTWcoQfade_-14z0lxpiQxoMc_rUH7GPH_xjPxkjCLdUldnQ50wdDkMMU3TZADnUT6WX1x8psyJGnxiyIZRRfLfeCca0WupOdq8KdeJ1Orja1BIMuKbq1ah5zVbocx5a2a--L-yCfT1lZ-I2-oDBDTjn54wD1DM3RhsVbdjInpU9jOlRii2rxVPP9iKf-RJP0yuME9-ebuUXMtReJufyzQxT2t_xI37MAs_jEhJUkteDnqeIBEpbwL5bZ4cWGUv8QjA_6lBmA7aKcFXIiR_O7CXE1VqKaVgNQW4PXcRA85X_Y9mdqXbKPcFVBrdCjgnw_zWGof9cI-63GBE9n): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:35:37 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:35:37 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq27yr3udVYJLd3ZPShhPb056SLNtxspymElPkO_oSY94wFJK0mCk4kXYYVMMMFi3hsi-Uspe_tHp-f_PIU_3uXOKV5can8SLc5W4w6c2MVSKc8MBigIQ2aWYgD5uJchfpWIhYuLr6ARJinQYBTJLfTwfVMdx0U2sG5Nnoo0yzj1fUuoUXRDZNPH1d17QUdcD1xwqOwtHK9PNK8CM7hgYYJHpQiLVQxM2rfxFbPjWRt-eGTRaOKnZHVt-fgznBL323gCWfKgMav_xSPWzLZKQj_kyL7zmuRt_VdO6ssRCAkkTfL-r67-yUpfHCcMaAan-edCcBGYqsy4xBoTn04wV0UkXPxL_DtG5dnceOtReUZoAMJR0frVpgOPPum1wPrMgLUqdwUinRpBZd36U4vP_bVQyWWqthGpPBmVmg0A26XP7kU6ArakykA9lolyQ6_-NKR7PhkhaneMSQjbz-OKRQdT_U4fLBQ): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:36:20 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:36:20 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq25yqrFO8pFhyGO0Ivp9aCbE7U2P1KOTZQCQCIUM1cf5B7fcImLun76E5pnc2D09MpwSNULr2bqSBo4IwNy4rOftCPl2f6D5dtW8Wdj_AABv8Q5fmPxoGTERwOsxKJthFXDwQjHmQl7vWwVesX12icuZPYNaYxTyN4kqjQi_Qd4xdGOm1gNlbOVqPpeM4dpR5BuzrVdH5htTZk36wZieGJmaahsnLcEqg9gOS3A7e-2Qwn-ZrKTUKCettFjdXVCc3imfr7inwGaO0PP8EZDq8IjA_ZYZ-COgwcMU25Ec_re9D34EpJoOtav9TNn-BlzBUguyan6tTFExvkYuiNoRBM-aNAoimOiUcskLweV0vPrWP4_cLT5jig898ViNHBlHHJqqr2vrpAexLT2isk0Ss7Ru12ttEe5L0edtiw29Y44yFYInhQPdxWiPz4JYVfcZj97g9n8xqgqUciKe408AHMLnTIgVew): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:37:29 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:37:29 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq25w1JBtNNRqWPnkKwJ-gWJRfrnxsT4YEmkSiuYW1xJ4RogDvOSLCnmhxgjKCKBfOUXBMLCBNxAWu3aiDYV-9MAOLCCv5kRECb6uTAQHZ3wXH92pKKbwB7qrCstDEj3mpiRQC-L3nIIebjUGYOfZ8yfQrOSg0uaDIa98QXSgbT1gTo9JXfiCSg_7L5MHfSIF-de6oRkSdO9BP9BIo2SUw_F60kxamPlsDTf0Hipwbi9VKzqsgFuRO4zrzCNVgaRRxpbAHjS7hg7Q6E2HTaDTB6Dl5IMekmy6eWflQLliLI1YNxt2qFFk82wj8USI1dPtzeH39xsvSPQZbNagSkTEro8aP9ohkpNM3s8K7p3FI_YOWeYtf2_NK-1AlAAB_ORl-uSQeeQbucxmKrs0sCXMBLata9UC4kqYhq905OWYo07J3ROeythZRgbu3m1CY4bR7ME-RILceVoS-_d4qKMQxh39ibSTtA): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:37:38 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:37:38 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24Z8P5KkvHOGbUrx344xn5a7fupW-IbHFm_ZAFupa7IBEi65nyE4iUqjz7mVUUKwPRa0WZ4NJE8RuINmKTTkZmvPoNftTpl2QSv1TSoN8peWFReabWXZ-iNHoqbIDghxE3-oKqnEKzLFbYWjNVFtIPJ3BstA4IDSSJzNX03VYfY6fF83yZ5cmWhGGse8yMPXQNj7fOP0MDpoxa3RABC-RUsH7r4qE4tgJ6xOu_yArMd6p3LTyLGxuYY8AgP3yhwsGviRLd6E2-RZl5B66yoQtaH4-49hrW5uzo6W8zdYor5QJ7hGPRJ8Mc2A-rTfkfZAYzeoPBMFpc7307tFfne-GoCpErvyM849U1pFE8ePHahl-Q7TIXDijMx7UaRpfwoz7LgprMIol7Reeek1Oq5iQ9Spj6gRtGlYbbB6sYpAhL2tKj9C5Pz72qYAWl8hEM2uvcYJF7_): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:38:53 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:38:53 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq27IBWN5rosWBOojIlB_9QbiarexxcEaXONm4CBImgbPwcPt6aAizSGG9ihAcBud7SUQVG5XNEGN3X3VsxkbBsVxbQbzf4RnRR-VxR7CNcuJTFmQrWxB4Mv96aAVa47tvoy8zOzbRAdZO5qMJxN5BqRum07V8woEX15PdtcyyqeREICVZgodQmeyum7V4I1oHwgSCdKx0jh2n_53s2UdflkakeB9t7pVXHRBJ7QA8_NmOv1uBEu-2nI-LDrOivcuiCWNIHGA1lKVqTs23JggMrLXuNRbWXifdMiMDoJgKp-e8UFzBniGaRxqPYX7fts0OchkdKcdVrrGay_FuWgJpwYNTSiVzLysV3mc8XejbDvxY3FftN0i_EI2q2K1gCfbLqSHfPxo_NGBDf4Jv9lvkHZmcdSK4IVa638SjW_opYtI008AhkxfVgCAZJOBjlbpEp31vkncA8NU3bTj2gR1N6K-bXiEow): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:41:20 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:41:20 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:41:27 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/secondne/public_html/controller/login.php on line 18
+[09-Oct-2021 04:41:27 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeeVbkcAAAAAKE1ONYMeUI_r0_XZwJXy6RcQYzW&amp;response=03AGdBq24wR_RyLGsWbTDlq9fJsMYpgtAziK9WTNbPmGXKQUB1lv_HjK5rNKNY3UIXp-CiL2_3n1nAjNK7fIj9G5VZCPRLp-O417fejPIXsCNJ2jFrNnYHqfHcleNSvK0Bl3-8rdCuhlwWUYO4ogQxnckvYgYmTkSzFvUMXJVMfThfOzse-XpZizlPLS9axkbfR92Wly7tY53RMTxVy7UC-HZygPKjmHmwlO5JfHkCXHuoIA3LIA-doei2F5a8doVP3WBec4R3MM2FcopkBFBgSR8XVsCZo2Ok0itR-nMpzIkRcDCSFDYgWT83hBLmN__ILE7436c7wOnBenFckhaAqFvmHcH8UFzBCwbnzFqI8QviaRkkBgbdCUJ9wqTf0eHDzTPKVBYJXVueIFJ2ojdZXdf9kwGpSRZmsZKVRaJjyGzHNaDLU20kQ-dADGbbOIb37X-YgtwIpTuY3SyTDB653GiG_u1ie6u41Q): failed to open stream: no suitable wrapper could be found in /home/secondne/public_html/controller/login.php on line 18

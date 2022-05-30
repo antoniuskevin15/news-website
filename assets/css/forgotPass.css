@@ -1,0 +1,28 @@
+body {
+  padding: 2rem;
+}
+
+.form-description {
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+.card {
+  padding: 2rem 3rem;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,82 @@
+/* TODO: Insert re-usable styling or class styling into this global.css file */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  background-color: transparent;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.form-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.header-container {
+  margin: 4rem 1rem 1rem;
+}
+
+.form-label {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  height: 4rem;
+  font-size: 1.6rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.username {
+  text-decoration: none;
+  text-align: center;
+  color: #2488ff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+
+.username:hover {
+  color: #fff;
+  cursor: pointer;
+}
